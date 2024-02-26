@@ -1,0 +1,104 @@
+@import url('https://fonts.googleapis.com/css2?family=Bodoni+Moda:ital,opsz,wght@0,6..96,400..900;1,6..96,400..900&family=Kaushan+Script&display=swap');
+header{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    background-color: #136066;
+    width: 100%;
+}
+header ul{
+    list-style: none;
+    display: flex;
+    flex-direction: row;
+    transform: translateY(50%);
+}
+
+h1{
+    text-align: center;
+    
+}
+header ul li{
+    margin: 20px;
+    color: #FFF;
+   font-family: "Kaushan Script", cursive;
+   text-decoration: none;
+}
+
+header .logo img{
+    width: 250px;
+}
+.Presentacion h1{
+    text-align: center;
+
+}
+.Presentacion p {
+    margin: 20px;
+    text-align: justify;
+}
+.piedepagina p{
+    text-align: center;
+    font-family: "Kaushan Script", cursive;
+}
+.piedepagina {
+    margin: 30px 30px 50px 30px;
+    background-color: #e89d10;   
+}
+
+.headermarr h1{
+   font-size: 50px; 
+   color: #FFF;
+   font-family: "Kaushan Script", cursive;
+   text-shadow: 6px 4px #3a3a3a;
+
+   transform: translateY(50%);
+}
+p{
+    font-size: 20px;
+    color: rgb(51, 49, 49);
+}
+
+
+.contenedor{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 10px 0;
+    background-color: #e89d10;
+}
+.Productos{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    margin: 10px 0 30px 0;
+    
+}
+
+.ubicacion {
+    margin: 2%;
+    height: 500px;
+}
+
+.caja{
+   width: 100%;
+   height: 100%;
+   padding: 10px;
+   display: flex;
+   flex-direction: column;
+   justify-content: center;
+   align-items: center;
+   border-radius: 5%;
+}
+
+.caja img {
+
+width: 500px;
+}
+.caja p{
+    font-size: 20px;
+    width: 500px;
+    text-align: justify;
+}
+.contacto {
+    background-color: #e0be7e;
+   
+}
